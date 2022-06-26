@@ -1,0 +1,88 @@
+#container {
+    display:flex
+}
+
+#headerName {
+    flex: 60%;
+    background-color: yellow
+}
+
+#NavLinks {
+    flex: 40%;
+}
+
+#profile_image {
+    width: auto;
+    border: 3px solid green;
+    border-radius: 50%;
+
+}
+
+#NavLinks ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#AboutMe {
+    display: flex
+}
+
+
+
+#Portfolio {
+    width: 100%;
+   
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#imageportfolio_image_1 {
+    flex: 25%;
+    padding: 15px;
+}
+
+#WorkExperience{
+    margin-top: 25px;
+    border: 2px solid red;
+}
+
+#work_exp_1
+{
+    display: flex;
+}
+
+#work_exp_1_img{
+    flex: 40%;
+}
+
+#work_exp_1_desc
+{
+    flex: 60%;
+}
+
+
+.portfolio_text {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: yellow;
+    width: auto;
+}
+
+#portfolio img {
+    object-fit: contain;
+}
+
+#ProfileImage {
+    flex: 30%;
+    background-color: purple
+}
+
+#Introduction {
+    flex: 70%;
+    background-color: red
+}
+
+#Introduction h2, h1 {
+    text-align: center;
+}
